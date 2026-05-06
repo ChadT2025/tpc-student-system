@@ -1,0 +1,10 @@
+START
+    INPUT StudentName
+    INPUT Studentresults
+  IF Score=<"60%"
+    OUTPUT "StudentName + Result: Pass"
+  ELSE
+    OUTPUT "StudentName + Result: Fail"
+  ENDIF
+    OUTPUT "Thank you for using the portal"
+END
